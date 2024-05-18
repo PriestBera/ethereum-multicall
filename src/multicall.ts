@@ -627,6 +627,8 @@ export class Multicall {
         return '0xc662c410C0ECf747543f5bA90660f6ABeBD9C8c4';
       case Networks.starknetTestnet:
         return '0xde29d060D45901Fb19ED6C6e959EB22d8626708e';
+      case Networks.artio:
+        return '0x9d1dB8253105b007DDDE65Ce262f701814B91125';
 
       default:
         throw new Error(
